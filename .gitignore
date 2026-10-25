@@ -1,0 +1,24 @@
+# Build output
+target/
+*.jar
+
+# Runtime data — NEVER commit these (they contain secrets / player data)
+config.json
+accounts.json
+links.json
+bans.json
+*.log
+logs/
+data/
+run/
+
+# Local environment
+.env
+.env.*
+!.env.example
+.idea/
+.vscode/
+*.iml
+.DS_Store
+*.bak
+*.tmp

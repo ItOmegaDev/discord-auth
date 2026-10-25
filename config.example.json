@@ -1,0 +1,88 @@
+{
+  "debug": false,
+  "discord": {
+    "botToken": "",
+    "guildId": "",
+    "verifiedRoleId": "",
+    "adminRoleId": "",
+    "adminUserIds": [],
+    "inviteUrl": "",
+    "requireGuildMember": true,
+    "maxAccountsPerDiscord": 2,
+    "maxJavaAccountsPerDiscord": 1,
+    "maxBedrockAccountsPerDiscord": 1
+  },
+  "auth": {
+    "mainServer": "main",
+    "codeTtlSeconds": 300,
+    "codeLength": 6,
+    "maxAttemptsPerUser": 5,
+    "attemptCooldownSeconds": 60,
+    "transferOnVerify": true,
+    "transferAddress": "",
+    "transferDelayMillis": 1200,
+    "transferReconnectTimeoutMillis": 15000,
+    "transferFallbackAddress": "127.0.0.1:25565",
+    "bedrockBypassVerification": false,
+    "bedrockUsernamePrefixes": [
+      "."
+    ],
+    "bedrockBypassPassword": false,
+    "verificationBypassNames": []
+  },
+  "limbo": {
+    "dimension": "THE_END",
+    "x": 0.5,
+    "y": 64.0,
+    "z": 0.5,
+    "yaw": 0.0,
+    "pitch": 0.0
+  },
+  "password": {
+    "enabled": true,
+    "requireWhenOnlineMode": false,
+    "sessionMinutes": 0,
+    "transferTicketSeconds": 30,
+    "minLength": 8,
+    "maxLength": 64,
+    "maxAttempts": 5,
+    "cooldownSeconds": 60,
+    "ipMaxAttempts": 10,
+    "ipCooldownSeconds": 300,
+    "timeoutSeconds": 60
+  },
+  "commands": {
+    "register": [
+      "register",
+      "reg",
+      "r"
+    ],
+    "login": [
+      "login",
+      "l"
+    ],
+    "admin": [
+      "discordauth",
+      "dauth"
+    ],
+    "link": [
+      "discordlink",
+      "linkdiscord"
+    ]
+  },
+  "tab": {
+    "enabled": true,
+    "nameSource": "nickname",
+    "format": "&#39D353%player%\n&8&o%discord%",
+    "hover": "&8Minecraft&7: &f%player%\n&#39D353Discord&7: &f%discord%\n&8Discord ID&7: &f%discord_id%",
+    "unknownDiscord": "unknown",
+    "stripUnsupported": true,
+    "skipWhenTabPluginInstalled": true,
+    "registerTabPluginPlaceholders": true,
+    "tabPluginPlaceholderRefreshMillis": 1000
+  },
+  "bridge": {
+    "enabled": true,
+    "channel": "discordauth:identity"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "discord-auth",
+  "name": "DiscordAuth",
+  "version": "1.7.6",
+  "description": "Discord-based account verification with a Velocity limbo",
+  "url": "",
+  "authors": [
+    "OmegaSMP"
+  ],
+  "dependencies": [
+    {
+      "id": "limboapi",
+      "optional": false
+    }
+  ],
+  "main": "net.omegasmp.discordauth.DiscordAuthPlugin"
+}
