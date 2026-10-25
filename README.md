@@ -1,6 +1,10 @@
+![DiscordAuth banner](assets/banner.png)
+
 # DiscordAuth
 
 A Velocity proxy plugin that requires players to link a Discord account and set a password before they reach the Minecraft server.
+
+![DiscordAuth flow](assets/flow.png)
 
 This repository is a **sanitized source copy**. It contains no bot tokens, Discord IDs, invite links, server addresses, player records, password hashes, or runtime configuration.
 
@@ -275,6 +279,10 @@ Then confirm:
 - [ ] `target/` is not committed.
 - [ ] A license file is added if you want to grant reuse rights.
 
+## Українською (коротко)
+
+DiscordAuth — плагін для Velocity, який вимагає прив'язки Discord-акаунта та пароля перед входом на Minecraft-сервер. Підтримує Java і Bedrock, ліміт 1 Java + 1 Bedrock на Discord, boss bar із таймером, Transfer і Geyser/Floodgate.
+
 ## License
 
-No license is included in this snapshot. Add a `LICENSE` file of your choice before distributing the project publicly.
+This project is licensed under the [MIT License](LICENSE).
